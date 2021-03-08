@@ -62,9 +62,28 @@
 #include "FWCore/ParameterSet/interface/Registry.h"
 
 const static std::vector<std::string> interestingTriggers = {
-    "HLT_IsoMu24_eta2p1",
-    "HLT_IsoMu24",
-    "HLT_IsoMu17_eta2p1_LooseIsoPFTau20",
+    "HLT_Dimuon10_Jpsi",
+	"HLT_Dimuon5_PsiPrime",
+	"HLT_Dimuon8_Jpsi",
+	"HLT_Dimuon9_PsiPrime",
+	"HLT_DoubleMu11_Acoplanarity03",
+	"HLT_DoubleMu3p5_LowMassNonResonant_Displaced",
+	"HLT_DoubleMu3p5_LowMass_Displaced",
+	"HLT_DoubleMu4_Acoplanarity03",
+	"HLT_DoubleMu5_IsoMu5",
+	"HLT_L2DoubleMu23_NoVertex",
+	"HLT_L2DoubleMu23_NoVertex_2Cha_Angle2p5",
+	"HLT_L2DoubleMu38_NoVertex_2Cha_Angle2p5",
+	"HLT_Mu13_Mu8",
+	"HLT_Mu13_Mu8_NoDZ",
+	"HLT_Mu17",
+	"HLT_Mu17_Mu8",
+	"HLT_Mu17_TkMu8",
+	"HLT_Mu17_TkMu8_NoDZ",
+	"HLT_Mu22_TkMu22",
+	"HLT_Mu22_TkMu8",
+	"HLT_Mu8",
+	"HLT_TripleMu5"
 };
 
 template <typename T>
